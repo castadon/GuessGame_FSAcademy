@@ -1,0 +1,38 @@
+.hot3 {
+	
+	background-color: #FF0000;
+	font-size: 35px;
+}
+
+.hot2 {
+	
+	background-color: #FF5F5F;
+	font-size: 35px;
+}
+
+.hot1 {
+	
+	background-color: #FFCFCF;
+	font-size: 35px;
+}
+
+.cold1 {
+	
+	background-color: #CCEBFF;
+	color: #FFFFFF;
+	font-size: 35px;
+}
+
+.cold2 {
+	
+	background-color: #008AE6;
+	color: #FFFFFF;
+	font-size: 35px;
+}
+
+.cold3 {
+	
+	background-color: #0033CC;
+	color: #FFFFFF;
+	font-size: 35px;
+}

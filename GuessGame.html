@@ -10,6 +10,7 @@
     <title>Guess the Number</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="guessgame.css">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     
@@ -17,26 +18,32 @@
 
   <body>
 
-    <div class="container">
-<div class="row">
-  <div class="col-md-3"></div>
+  <div class="container">
+  
+  <div class="row">
+  <div class="col-md-3" id="left"></div>
   <div class="col-md-6">
         <div class="page-header">
           <h1>Guess the Number</h1>   
         </div>
 
         <div class="jumbotron">
-          <p class="lead">Please enter a number between 1 and 100</p>
-          <p><input type="text" class=".input-lg" placeholder="1-100"></p>
-          <p><button class="btn btn-lg btn-success" type="submit">Submit your guess</button></p>
-          <p><a class="btn btn-lg btn-default" href="#" role="button">Play again</a>
-          <a class="btn btn-lg btn-default" href="#" role="button">Give me a Hint</a></p>
-          <h2>Number of guesses remaining</h2>
+          <p class="red">Please enter a number between 1 and 100</p>
+          <form>
+            <p><input type="text" class=".input-lg" placeholder="1-100"></p>
+            <p><button class="btn btn-lg btn-success" id="guess_b" type="submit">Submit your guess</button></p>
+            <p><a class="btn btn-lg btn-default" href="#" id="play_b">Play again</a>
+            <a class="btn btn-lg btn-default" href="#" id="hint_b">Give me a Hint</a></p>
+            <h2>Guesses remaining</h2>
+            <h4></h4>
+          </form>
         </div>
   </div>
-  <div class="col-md-3"></div>
+  <div class="col-md-3" id="right"></div>
         
     </div> <!-- /container -->
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="guessgame.js"></script>
+￼￼￼￼￼￼
   </body>
 </html>
