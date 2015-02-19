@@ -20,6 +20,7 @@ $(document).ready(function() {
     		$("h4").text("");
     		return; }
 
+
     	guesses_made.push(value);
     	
     	guesses_remaining += -1;
@@ -35,6 +36,7 @@ $(document).ready(function() {
     		$(".history").remove();
     		$("#right").append(st);
     	}
+    	
 	});
 
 	$("#play_b").on('click', function() {
